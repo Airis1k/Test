@@ -3,7 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Sveikas pasauli!");
-        System.out.println("Sveikas, vartotojau!");
+
+        int sk1 = 2, sk2 = 1;
+
+        int rez = sk1 + sk2;
+
+        System.out.println(rez);
     }
 }
